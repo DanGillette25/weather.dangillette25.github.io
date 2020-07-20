@@ -1,0 +1,57 @@
+#main-content{
+    position: relative;
+    margin-left: 300px;
+    border: 1px solid black;
+    padding: 10px 10px 10px 10px 10px;
+}
+
+#week-forecast{
+    border: 1px solid black;
+    margin-left: 300px;
+    margin-top: 10px;
+    padding: 15px 15px 15px 15px;
+    height: 150px;
+}
+
+aside{
+    height: 100%;
+    border: 1px solid black;
+    width: 275px;
+    position: fixed;
+    overflow-x: hidden;
+
+}
+
+form {
+    margin-top: 10px;
+    text-align: center;
+}
+
+li {
+    list-style: none;
+}
+
+.current-weather {
+    border: 1px solid black;
+    margin-right: 5px;
+    margin-left: 5px;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+.forecast-div {
+    border: 1px solid black;
+    float: left;
+    margin-right: 5px;
+
+}
+
+.city-button {
+    color: white;
+    background-color: blue;
+}
+
+.recent-button {
+    color: white;
+    background-color: blue;
+}
