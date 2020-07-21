@@ -1,8 +1,8 @@
 $(document).ready(function(){
 
-var fQueryURL = "http://api.openweathermap.org/data/2.5/forecast?q="
-var cQueryURL = "http://api.openweathermap.org/data/2.5/weather?q="
-var uvQueryURL = "http://api.openweathermap.org/data/2.5/uvi?"
+var fQueryURL = "https://api.openweathermap.org/data/2.5/forecast?q="
+var cQueryURL = "https://api.openweathermap.org/data/2.5/weather?q="
+var uvQueryURL = "https://api.openweathermap.org/data/2.5/uvi?"
 var apiKey = "&appid=4a3d57db75c4e2951a03efa8186805ed"
 var historicSearches = []
 var cCityName = ""
