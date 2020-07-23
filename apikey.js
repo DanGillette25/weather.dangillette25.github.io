@@ -1,0 +1,1 @@
+var apiKey = "&appid=4a3d57db75c4e2951a03efa8186805ed"

@@ -4,24 +4,32 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Local Weather</title>
+    <!--Stylesheet link-->
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
+<!--background-->
+    <div class="bg">
+<!--Header-->
+    <h1 class="rounded">Weather Forecast Search</h1>
+<!--sidebar-->
     <aside id="button-sidebar">
+<!--Search field and search button-->
         <form>
-            <input type="text" name="search">
-            <button value="submit" id="srch">Search</button>
+            <input type="text" name="search" class="rounded">
+            <button value="submit" id="srch" class="search-button rounded">Search</button>
         </form>
-
-        <h2>Five Most Recent Searches</h2>
+<!--recent searches and div containing buttons for it-->
+        <h2 class = "rounded">Five Most Recent Searches</h2>
         <div id="history-buttons"></div>
 
 
     </aside>
 
-    <div id="main-content">
-        <h1>Weather</h1>
+    
+<!--Today's forecast-->
+    <div id="main-content" class="rounded">
+        
         
     </div>
 
@@ -31,13 +39,14 @@
     
 
     
-
-    <div id="week-forecast"></div>
-
+<!--Forecast for the week ahead-->
+    <div id="week-forecast" class="rounded"></div>
+<!--Javascript and jQuery links-->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src = "./script.js"></script>
     <script src="./moment.js"></script>
+    <script src="./apikey.js"></script>
 
-    
+</div>
 </body>
 </html>
